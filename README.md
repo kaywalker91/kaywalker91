@@ -3,8 +3,11 @@
 🌟 About Me
 
 📱 Android/iOS 네이티브 앱 개발에 전문성을 가지고 있습니다
+
 💡 사용자 중심의 직관적인 UI/UX 구현을 추구합니다
+
 🚀 새로운 기술 학습과 문제 해결을 즐깁니다
+
 🤝 팀워크를 중요시하며 협업을 통한 시너지 창출을 지향합니다
 
 🛠 Technical Stack
@@ -45,7 +48,6 @@ CI/CD (Jenkins, Fastlane)
 기능 1
 기능 2
 
-
 [스크린샷 또는 데모 링크]
 [📲 플레이스토어 링크]
 
@@ -58,15 +60,14 @@ CI/CD (Jenkins, Fastlane)
 기능 1
 기능 2
 
-
 [스크린샷 또는 데모 링크]
 [📱 앱스토어 링크]
 
 📊 GitHub Stats
 Show Image
 Show Image
-🏆 Achievements
 
+🏆 Achievements
 [관련 수상 경력]
 [앱 다운로드 수/ratings]
 [자격증/교육 이수]
