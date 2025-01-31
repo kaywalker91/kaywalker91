@@ -1,4 +1,5 @@
 안녕하세요 👋 모바일 앱 개발자 카이워커입니다
+
 🌟 About Me
 
 📱 Android/iOS 네이티브 앱 개발에 전문성을 가지고 있습니다
@@ -72,7 +73,7 @@ Show Image
 
 📫 Contact & Links
 
-📧 Email: [이메일 주소]
+📧 Email: eorkr112@naver.com
 💼 LinkedIn: [링크드인 프로필]
 🌐 Blog: [기술 블로그 주소]
 📱 Portfolio: [포트폴리오 사이트]
