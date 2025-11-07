@@ -8,7 +8,7 @@
 
 > **모바일/웹 풀스택 개발자** | 최신 AI 트렌드를 활용하여 효율적인 개발을 추구합니다
 
-- 🔭 Currently working at **Siseon IT** as a Mobile App Developer
+- 🔭 Currently working at **Seesun IT** as a Mobile App Developer
 - 💼 3+ years of professional experience in mobile app development
 - 🎯 Specialized in **Flutter**, **Android Native**, and **iOS Native** development
 - 🤖 Actively using AI tools (Claude Code, Cursor AI, Gemini) for efficient development
