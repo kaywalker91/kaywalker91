@@ -1,7 +1,7 @@
 # Hi there! 👋 I'm Daegak Kim (KayWalker)
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=27&pause=1000&color=2E90FF&center=true&vCenter=true&width=500&lines=Mobile+%2F+Web+Full-Stack+Developer;3%2B+Years+of+Experience;Flutter+%7C+Android+%7C+iOS+Expert" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=27&pause=1000&color=2E90FF&center=true&vCenter=true&width=650&lines=Mobile+%2F+Web+Full-Stack+Developer;3%2B+Years+of+Experience;Flutter+%7C+Android+%7C+iOS+Expert" alt="Typing SVG" />
 </div>
 
 ## 🚀 About Me
