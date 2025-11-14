@@ -61,13 +61,6 @@
 - 🗺️ **Google Maps API** 활용 위치 기반 서비스 구축
 - 📈 **성과**: 대전시 축제 연계 이벤트로 다운로드 수 400% 증가 (1,000 → 5,000)
 
-## 📊 GitHub Stats
-
-<div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=kaywalker91&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kaywalker91&layout=compact&langs_count=7&theme=tokyonight"/>
-</div>
-
 ## 🎓 Education & Certifications
 
 - 🎓 **공주교육대학교** 초등윤리교육과 졸업 (2012.03 - 2019.02)
