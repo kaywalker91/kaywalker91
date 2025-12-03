@@ -93,8 +93,59 @@
 
 ---
 
+## 📂 Repository Categories
+
+### 🎯 Portfolio Projects
+| Repository | Description | Tech |
+|------------|-------------|------|
+| [Crypto-Wallet-Pro](https://github.com/kaywalker91/Crypto-Wallet-Pro) | 암호화폐 지갑 앱 (Clean Architecture) | Flutter, Riverpod |
+| [Flutter_Practice](https://github.com/kaywalker91/Flutter_Practice) | 반응형 UI + 다국어 학습 | Flutter, Riverpod |
+| [Flutter_SNS](https://github.com/kaywalker91/Flutter_SNS) | SNS 앱 | Flutter |
+
+### 📱 Android Applications
+<details>
+<summary><b>OrderApp Series</b> - 주문 앱 (9개 버전)</summary>
+
+`OrderApp_ver2.2` `Android_OrderApp_ver1.1` `Android_OrderApp_ver1.0` `Android_OrderApp_220719` `Android_OrderApp_220715` `Android_OrderApp_220714` `Android_OrderApp_220713` `Android_OrderApp_220707` `Android_OrderApp_220705`
+</details>
+
+<details>
+<summary><b>SNS Prototypes</b> - SNS 프로토타입 (4개 버전)</summary>
+
+`SNS_Proto2.3` `SNS_Proto2.2` `SNS_Proto2.1` `SNS_Proto2`
+</details>
+
+<details>
+<summary><b>Other Android Apps</b></summary>
+
+- **Instagram Clone**: `Android_DW_Insta` `Android_New_Insta`
+- **MemoApp**: `MemoApp_Proto` `MemoApp_Ver1.2`
+- **Utility**: `Android_QRScanner` `Android---CameraMudule` `Android_ButtonDesign`
+</details>
+
+### ☕ Java & Frontend Learning
+<details>
+<summary><b>Java Daily Practice</b> - 2022년 학습 기록 (40개+)</summary>
+
+**April**: `JAVA.220405` ~ `JAVA_220429`
+**May**: `JAVA_220503` ~ `JAVA_220531`
+**June**: `JAVA_220602` ~ `JAVA_220610`
+**Projects**: `JAVA_220720` (로또) `JAVA_MIniGameManager_220802` (미니게임)
+</details>
+
+<details>
+<summary><b>Frontend Learning</b> - HTML/CSS/JavaScript (40개+)</summary>
+
+**HTML/CSS**: Position, Float, Transform, Keyframes, Media Query
+**JavaScript**: Modal, Functions, Variables
+**jQuery**: Basic ~ Advanced
+**Projects**: `Frontend_TankGame_220805` (게임)
+</details>
+
+---
+
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=kaywalker91&color=blue&style=flat-square" alt="Profile views" />
-  
+
   **"기술로 더 나은 세상을 만드는 개발자"**
 </div>
