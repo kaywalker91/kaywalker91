@@ -6,7 +6,7 @@
 
 ## 🚀 About Me
 
-> **모바일/Web3 풀스택 개발자** | AI 기반 효율적 개발 & 블록체인 기술 전문
+> **모바일/Web3 풀스택 개발자**
 
 - 🔭 Currently working at **FORLONG Co., Ltd.** - Multi-chain DeFi dApp Developer
 - 💼 **3+ years** of professional mobile app development experience
