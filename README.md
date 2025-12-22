@@ -1,18 +1,27 @@
 # Hi there! 👋 I'm Daegak Kim (KayWalker)
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=27&pause=1000&color=2E90FF&center=true&vCenter=true&width=650&lines=Mobile+%2F+Web+Full-Stack+Developer;3%2B+Years+of+Experience;Flutter+%7C+Android+%7C+iOS+Expert" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=27&pause=1000&color=2E90FF&center=true&vCenter=true&width=700&lines=Mobile+%2F+Web3+Full-Stack+Developer;3%2B+Years+of+Professional+Experience;Flutter+%7C+Android+%7C+iOS+%7C+Blockchain" alt="Typing SVG" />
 </div>
 
 ## 🚀 About Me
 
-> **모바일/웹 풀스택 개발자** | 최신 AI 트렌드를 활용하여 효율적인 개발을 추구합니다
+> **모바일/Web3 풀스택 개발자** | AI 기반 효율적 개발 & 블록체인 기술 전문
 
-- 🔭 Currently working at **Seesun IT** as a Mobile App Developer
-- 💼 3+ years of professional experience in mobile app development
-- 🎯 Specialized in **Flutter**, **Android Native**, and **iOS Native** development
-- 🤖 Actively using AI tools (Claude Code, Cursor AI, Gemini) for efficient development
-- 📱 Led development of public safety apps with **1M+ downloads**
+- 🔭 Currently working at **FORLONG Co., Ltd.** - Multi-chain DeFi dApp Developer
+- 💼 **3+ years** of professional mobile app development experience
+- 🎯 Specialized in **Flutter**, **Android/iOS Native**, **Blockchain/Web3**
+- 🤖 AI-Driven Development (Claude Code, Super Claude, Gemini, Grok)
+- 📱 Led development of public safety apps with **1M+ downloads** (안전디딤돌)
+- 🌍 Built multi-language support system for **19 languages**
+
+## 💼 Career
+
+| Period | Company | Role | Key Projects |
+|--------|---------|------|--------------|
+| 2025.12 ~ | **주식회사포롱** | 개발팀 대리 | 멀티체인 Web3 지갑 & DeFi dApp |
+| 2024.11 ~ 2025.11 | **시선아이티** | 사업부 대리 | 안전디딤돌, 이머전시레디앱 |
+| 2022.10 ~ 2024.11 | **플레이스링크** | 개발팀 사원~대리 | 포인트투어 (Android/iOS) |
 
 ## 💻 Tech Stack
 
@@ -23,6 +32,11 @@
 ![iOS](https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=ios&logoColor=white)
 ![Swift](https://img.shields.io/badge/swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white)
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+
+### ⛓️ Blockchain & Web3
+![Web3](https://img.shields.io/badge/Web3-F16822?style=for-the-badge&logo=web3.js&logoColor=white)
+![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=Ethereum&logoColor=white)
+![Solana](https://img.shields.io/badge/Solana-9945FF?style=for-the-badge&logo=solana&logoColor=white)
 
 ### 🌐 Web & Backend
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
@@ -36,71 +50,73 @@
 ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white)
 ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
 
-### 🛠️ Tools & Platforms
+### 🛠️ Tools & Libraries
 ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase)
+![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
-![Android Studio](https://img.shields.io/badge/Android%20Studio-3DDC84.svg?style=for-the-badge&logo=android-studio&logoColor=white)
-![Xcode](https://img.shields.io/badge/Xcode-007ACC?style=for-the-badge&logo=Xcode&logoColor=white)
-![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![RxJava](https://img.shields.io/badge/RxJava-B7178C?style=for-the-badge&logo=reactivex&logoColor=white)
 
 ## 🏆 Featured Projects
 
+### 🔐 iLity Hub - Multi-chain Web3 Wallet (현재 진행중)
+> **ILITY Network 기반 멀티체인 Web3 지갑 & 소셜 플랫폼**
+
+- ⛓️ 다양한 블록체인 네트워크 자산 통합 관리
+- 💱 DeFi 서비스 연동 및 스왑 기능
+- 🏗️ **Clean Architecture** + **Riverpod** 기반 설계
+- 🔒 보안 중심 지갑 아키텍처 구현
+
 ### 📱 안전디딤돌 (SafetySteppingStone) - Flutter
-> **재난안전 통합 정보 제공 앱** | 행정안전부 공식 앱
+> **재난안전 통합 정보 제공 앱** | 행정안전부 공식 앱 | **100만+ 다운로드**
 
 - 🎯 **Riverpod** 기반 반응형 상태관리 아키텍처 구축
-- 🔔 **Firebase FCM Topic**을 활용한 지역별 맞춤형 재난 알림 시스템
-- 🌍 19개 언어 실시간 번역 기능 (Google Translate API V3)
-- 📊 **성과**: 상태 관리 버그 30% 감소, 개발 속도 20% 향상
+- 🔔 **Firebase FCM Topic** 활용 지역별 맞춤형 재난 알림 시스템
+- 🌍 **19개 언어** 실시간 번역 기능 (Google Translate API V3)
+- ♿ 앱 접근성 (TalkBack/VoiceOver) 향상
+- 📊 **성과**: 상태 관리 버그 **30% 감소**, 개발 속도 **20% 향상**
 
 ### 📍 포인트투어 (PointTour) - Android/iOS Native
-> **위치기반 리워드 서비스 앱**
+> **위치기반 리워드 서비스 앱** | B2G 프로젝트
 
 - 🔗 **Firebase Dynamic Link** 기반 바이럴 마케팅 기능 구현
 - 🗺️ **Google Maps API** 활용 위치 기반 서비스 구축
-- 📈 **성과**: 대전시 축제 연계 이벤트로 다운로드 수 400% 증가 (1,000 → 5,000)
+- 🔄 AsyncTask → **RxJava** 레거시 코드 리팩토링
+- 📈 **성과**: 대전시 0시축제 이벤트로 다운로드 **400% 증가** (1,000 → 5,000)
 
-## 🎓 Education & Certifications
+### 🧠 MindLog - AI Emotion Diary
+> **AI 기반 감정 분석 스마트 다이어리 앱**
 
-- 🎓 **공주교육대학교** 초등윤리교육과 졸업 (2012.03 - 2019.02)
-- 📜 **한국사능력검정시험 1급** (2021.04)
-- 💻 **정보처리기능사** (2006.08)
-- 📋 **DW아카데미** 스마트웹&콘텐츠 UI/UX 개발자 양성과정 수료 (2022.04 - 2022.10)
+- 🤖 사용자 일기 분석을 통한 감정 상태 파악
+- 💬 맞춤형 위로 메시지 및 행동 지침 제공
+- 📊 감정 트렌드 시각화
 
-## 🏅 Awards
+### 🌍 TimeWalker - Interactive History Game
+> **시간을 걷는 자** | 인터랙티브 역사 교육 어드벤처
 
-- 🥈 **DW아카데미 해커톤 프로젝트 2등** - 스타벅스 클론앱 (2022)
-- 🥈 **DW아카데미 해커톤 팀프로젝트 2등** - DW_Insta (2022)
-
-## 📫 Contact Me
-
-<div align="center">
-  
-[![Email](https://img.shields.io/badge/Email-eorkr112%40naver.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:eorkr112@naver.com)
-[![Phone](https://img.shields.io/badge/Phone-010--2125--0725-00C300?style=for-the-badge&logo=whatsapp&logoColor=white)](tel:010-2125-0725)
-
-</div>
-
-## 💡 Core Competencies
-```
-✅ 최신 AI 트렌드 활용 개발 (Claude Code, Cursor AI, Gemini)
-✅ Cross-platform 개발 전문성 (Flutter/Android/iOS)
-✅ 백엔드 시스템 이해 및 Full-stack 개발 능력
-✅ UI/UX 설계 및 사용자 경험 최적화
-✅ 레거시 시스템 리팩토링 및 성능 개선
-```
+- 🗺️ 지도 탐험 & 시대 여행을 통한 역사 학습
+- 👥 역사적 인물들과의 대화 시스템
+- 🎮 게임화된 교육 콘텐츠
 
 ---
 
 ## 📂 Repository Categories
 
 ### 🎯 Portfolio Projects
+| Repository | Description | Tech | Demo |
+|------------|-------------|------|------|
+| [Crypto-Wallet-Pro](https://github.com/kaywalker91/Crypto-Wallet-Pro) | 암호화폐 지갑 앱 (Clean Architecture) | Flutter, Riverpod | [Demo](https://kaywalker91.github.io/Crypto-Wallet-Pro/) |
+| [MindLog](https://github.com/kaywalker91/MindLog) | AI 감정 분석 다이어리 | Flutter, Dart | [Demo](https://kaywalker91.github.io/MindLog/) |
+| [TimeWalker](https://github.com/kaywalker91/TimeWalker) | 역사 교육 어드벤처 게임 | Flutter, Dart | - |
+| [wallet_integration_practice](https://github.com/kaywalker91/wallet_integration_practice) | 멀티체인 지갑 통합 연습 | Flutter, Dart | - |
+| [Android_DW_Insta](https://github.com/kaywalker91/Android_DW_Insta) | Instagram 클론앱 | Android, Java | [Demo](https://kaywalker91.github.io/Android_DW_Insta/) |
+| [Flutter_SNS](https://github.com/kaywalker91/Flutter_SNS) | SNS 앱 | Flutter | [Repo](https://github.com/kaywalker91/Flutter_SNS) |
+
+### 🧪 Learning & Experiments
 | Repository | Description | Tech |
 |------------|-------------|------|
-| [Crypto-Wallet-Pro](https://github.com/kaywalker91/Crypto-Wallet-Pro) | 암호화폐 지갑 앱 (Clean Architecture) | Flutter, Riverpod |
-| [Flutter_Practice](https://github.com/kaywalker91/Flutter_Practice) | 반응형 UI + 다국어 학습 | Flutter, Riverpod |
-| [Flutter_SNS](https://github.com/kaywalker91/Flutter_SNS) | SNS 앱 | Flutter |
+| [Native-Lab](https://github.com/kaywalker91/Native-Lab) | Flutter 네이티브 플랫폼 동작 학습 | Flutter, Platform Channels |
+| [Flutter_Practice](https://github.com/kaywalker91/Flutter_Practice) | 반응형 UI + 다국어 (EN/KO/JA) | Flutter, Riverpod |
+| [Android_NewStarClone](https://github.com/kaywalker91/Android_NewStarClone) | Android 앱 클론 프로젝트 | Android, Java |
 
 ### 📱 Android Applications
 <details>
@@ -123,24 +139,44 @@
 - **Utility**: `Android_QRScanner` `Android---CameraMudule` `Android_ButtonDesign`
 </details>
 
-### ☕ Java & Frontend Learning
-<details>
-<summary><b>Java Daily Practice</b> - 2022년 학습 기록 (40개+)</summary>
+---
 
-**April**: `JAVA.220405` ~ `JAVA_220429`
-**May**: `JAVA_220503` ~ `JAVA_220531`
-**June**: `JAVA_220602` ~ `JAVA_220610`
-**Projects**: `JAVA_220720` (로또) `JAVA_MIniGameManager_220802` (미니게임)
-</details>
+## 💡 Core Competencies
 
-<details>
-<summary><b>Frontend Learning</b> - HTML/CSS/JavaScript (40개+)</summary>
+```
+🤖 AI-Driven Development    Claude Code, Super Claude, Gemini, Grok 활용
+⛓️ Blockchain/Web3         멀티체인 지갑, DeFi 서비스 개발
+📱 Cross-Platform          Flutter, Android Native, iOS Native
+🔧 Backend Integration     전자정부프레임워크, Spring, REST API
+🔄 Legacy Refactoring      AsyncTask → RxJava, 상태관리 최적화
+🌍 Internationalization    19개 언어 지원 시스템 구축
+♿ Accessibility           TalkBack/VoiceOver 접근성 향상
+```
 
-**HTML/CSS**: Position, Float, Transform, Keyframes, Media Query
-**JavaScript**: Modal, Functions, Variables
-**jQuery**: Basic ~ Advanced
-**Projects**: `Frontend_TankGame_220805` (게임)
-</details>
+## 🎓 Education & Certifications
+
+| Type | Name | Date |
+|------|------|------|
+| 🎓 학위 | 공주교육대학교 초등윤리교육과 | 2012.03 - 2019.02 |
+| 📋 교육 | DW아카데미 스마트웹&콘텐츠 UI/UX 개발자 양성과정 | 2022.04 - 2022.10 |
+| 📜 자격증 | 한국사능력검정시험 1급 | 2021.04 |
+| 📜 자격증 | 초등학교정교사 | 2019.02 |
+| 💻 자격증 | 정보처리기능사 | 2006.08 |
+
+## 🏅 Awards
+
+- 🥈 **DW아카데미 해커톤 프로젝트 2등** - 스타벅스 클론앱 (2022)
+- 🥈 **DW아카데미 해커톤 팀프로젝트 2등** - DW_Insta (2022)
+
+## 📫 Contact Me
+
+<div align="center">
+
+[![Email](https://img.shields.io/badge/Email-eorkr112%40naver.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:eorkr112@naver.com)
+[![GitHub](https://img.shields.io/badge/GitHub-kaywalker91-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/kaywalker91)
+[![Portfolio](https://img.shields.io/badge/Portfolio-kaywalker91.github.io-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://kaywalker91.github.io/)
+
+</div>
 
 ---
 
@@ -148,4 +184,6 @@
   <img src="https://komarev.com/ghpvc/?username=kaywalker91&color=blue&style=flat-square" alt="Profile views" />
 
   **"기술로 더 나은 세상을 만드는 개발자"**
+
+  *Building a better world through technology*
 </div>
