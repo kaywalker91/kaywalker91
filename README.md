@@ -159,12 +159,16 @@
 ## GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=kaywalker91&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="165" alt="GitHub Stats"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=kaywalker91&theme=tokyonight&hide_border=true" height="165" alt="GitHub Streak"/>
-</div>
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kaywalker91&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages"/>
+  <p>
+    <img src="https://img.shields.io/badge/Public_Repos-15+-181717?style=for-the-badge&logo=github&logoColor=white" alt="Public Repos"/>
+    <img src="https://img.shields.io/badge/Primary_Language-Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" alt="Primary Language"/>
+    <img src="https://img.shields.io/badge/Focus-Flutter_&_Web3-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Focus"/>
+  </p>
+  <p>
+    <img src="https://img.shields.io/badge/Commits-Active-success?style=flat-square&labelColor=2B2B2B" alt="Commits"/>
+    <img src="https://img.shields.io/badge/Open_Source-Contributor-blue?style=flat-square&labelColor=2B2B2B" alt="Open Source"/>
+    <img src="https://img.shields.io/badge/Code_Quality-Clean_Architecture-6DB33F?style=flat-square&labelColor=2B2B2B" alt="Code Quality"/>
+  </p>
 </div>
 
 ---
