@@ -2,7 +2,7 @@
 
 <div align="center">
   <a href="https://github.com/kaywalker91">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=02569B&center=true&vCenter=true&multiline=true&width=700&height=100&lines=Senior+Flutter+Developer;Web3+%26+Blockchain+dApp+Engineer;100M%2B+Downloads+%7C+Clean+Architecture" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=02569B&center=true&vCenter=true&multiline=true&width=700&height=100&lines=Flutter+Developer;Web3+%26+Blockchain+dApp+Engineer;100M%2B+Downloads+%7C+Clean+Architecture" alt="Typing SVG" />
   </a>
 
   <!-- Key Achievement Badges -->
