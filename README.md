@@ -3,12 +3,12 @@
 
 <div align="center">
   <a href="https://github.com/kaywalker91">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=02569B&center=true&vCenter=true&multiline=true&width=700&height=100&lines=4%EB%85%84%EC%B0%A8+Flutter+%EA%B0%9C%EB%B0%9C%EC%9E%90;Clean+Architecture+%26+Riverpod;100M%2B+Downloads+%7C+Web3+%26+DeFi" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=02569B&center=true&vCenter=true&multiline=true&width=700&height=100&lines=4%EB%85%84%EC%B0%A8+Flutter+%EA%B0%9C%EB%B0%9C%EC%9E%90;Clean+Architecture+%26+Riverpod;Web3+%26+DeFi+%7C+AI+Integration" alt="Typing SVG" />
   </a>
 
   <!-- 주요 성과 뱃지 -->
   <p>
-    <img src="https://img.shields.io/badge/다운로드-1억+-success?style=for-the-badge&labelColor=2B2B2B" alt="1억+ 다운로드"/>
+
     <img src="https://img.shields.io/badge/Flutter-3년_4개월-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter 3년 4개월"/>
     <img src="https://img.shields.io/badge/Web3-WalletConnect_v2-3B99FC?style=for-the-badge&logo=walletconnect&logoColor=white" alt="WalletConnect v2"/>
   </p>
@@ -23,7 +23,7 @@
 > **"안정성과 완성도를 중시하는 개발자"**
 
 - 현재 **㈜포롱(FORLONG)**에서 **iLity Hub** 개발 중 - 멀티체인 크립토 지갑 & 소셜 트레이딩 플랫폼
-- 정부 재난안전 앱 Flutter 전환 담당 (**1억+ 다운로드**)
+- 정부 재난안전 앱 **안전디딤돌** Flutter 전환 담당
 - **Clean Architecture**, **Riverpod 3.x**, **WalletConnect v2** 전문
 - AI 활용 개발: Claude Code, Cursor AI, Gemini (생산성 30% 향상)
 
@@ -48,7 +48,7 @@
 
 ---
 
-### 2. 안전디딤돌 (Emergency Ready App) `1억+ 다운로드`
+### 2. 안전디딤돌 (Emergency Ready App) `Production`
 > 행정안전부 공식 재난안전 서비스앱
 
 | 기술 스택 | 주요 기능 |
@@ -158,7 +158,7 @@
 2025.12 ─── ㈜포롱 (FORLONG) | iLity Hub 멀티체인 지갑 (현재)
     │       50,000+ LOC, 12개 모듈, 299개 테스트 케이스
     │
-2024.11 ─── ㈜시선아이티 | 안전디딤돌 Flutter 전환 (1억+ 다운로드)
+2024.11 ─── ㈜시선아이티 | 안전디딤돌 Flutter 전환
     │       19개국 다국어 지원, 레거시→Flutter 100% 마이그레이션
     │
 2022.10 ─── ㈜플레이스링크 | 포인트투어 위치기반 앱
