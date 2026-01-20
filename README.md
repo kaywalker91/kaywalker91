@@ -3,7 +3,7 @@
 
 <div align="center">
   <a href="https://github.com/kaywalker91">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=02569B&center=true&vCenter=true&multiline=true&width=700&height=100&lines=4%EB%85%84%EC%B0%A8+Flutter+%EA%B0%9C%EB%B0%9C%EC%9E%90;Clean+Architecture+%26+Riverpod;Web3+%26+DeFi+%7C+AI+Integration" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=02569B&center=true&vCenter=true&width=600&height=50&lines=4%EB%85%84%EC%B0%A8+Flutter+%EA%B0%9C%EB%B0%9C%EC%9E%90;Clean+Architecture+%26+Riverpod;Web3+%26+DeFi+%7C+AI+Integration" alt="Typing SVG" />
   </a>
 
   <!-- 주요 성과 뱃지 -->
