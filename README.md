@@ -8,7 +8,6 @@
 
   <!-- 주요 성과 뱃지 -->
   <p>
-
     <img src="https://img.shields.io/badge/Flutter-3년_4개월-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter 3년 4개월"/>
     <img src="https://img.shields.io/badge/Web3-WalletConnect_v2-3B99FC?style=for-the-badge&logo=walletconnect&logoColor=white" alt="WalletConnect v2"/>
   </p>
