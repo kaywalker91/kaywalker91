@@ -42,7 +42,7 @@ Migrated legacy Android (Java) + iOS (Objective-C) to Flutter.
 - Full TalkBack/VoiceOver accessibility
 
 ### MindLog
-**AI-powered emotional diary** — [Google Play](https://play.google.com/store/apps/details?id=com.kaywalker.mindlog)
+**AI-powered emotional diary** — [Google Play](https://play.google.com/store/apps/details?id=com.mindlog.mindlog)
 
 Llama 3.3 analyzes journal entries and provides personalized support.
 
