@@ -72,21 +72,6 @@ Time travel meets map exploration. Built with Flame engine.
 
 ---
 
-## GitHub Stats
-
-<div align="center">
-<img src="https://github-readme-stats-sigma-one-35.vercel.app/api?username=kaywalker91&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" width="49%"/>
-<img src="https://github-readme-stats-sigma-one-35.vercel.app/api/top-langs/?username=kaywalker91&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" width="49%"/>
-</div>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=kaywalker91&theme=tokyo-night&area=true&hide_border=true" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=kaywalker91&theme=minimal&area=true&hide_border=true" />
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=kaywalker91&theme=tokyo-night&area=true&hide_border=true" alt="Activity Graph" width="100%" />
-</picture>
-
----
-
 <div align="center">
 
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:eorkr112@naver.com)
