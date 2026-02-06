@@ -75,12 +75,12 @@ Time travel meets map exploration. Built with Flame engine.
 ## GitHub Stats
 
 <div align="center">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=kaywalker91&theme=tokyonight&hide_border=true" alt="GitHub Streak" width="100%"/>
+<img src="https://github-readme-streak-stats-chi-neon.vercel.app/?user=kaywalker91&theme=tokyonight&hide_border=true" alt="GitHub Streak" width="100%"/>
 </div>
 
 <div align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=kaywalker91&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" width="49%"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kaywalker91&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" width="49%"/>
+<img src="https://github-readme-stats-sigma-one-35.vercel.app/api?username=kaywalker91&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" width="49%"/>
+<img src="https://github-readme-stats-sigma-one-35.vercel.app/api/top-langs/?username=kaywalker91&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" width="49%"/>
 </div>
 
 <picture>
