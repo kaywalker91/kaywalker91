@@ -31,7 +31,7 @@ Tech: `Flutter` `Riverpod 3.x` `WalletConnect v2` `reown_appkit` `fl_chart`
 
 ## Featured Work
 
-### Emergency Ready App (안전디딤돌)
+### 안전디딤돌&Emergency Ready App
 **Korea's official disaster safety app** — Ministry of the Interior and Safety
 
 Migrated legacy Android (Java) + iOS (Objective-C) to Flutter.
