@@ -16,7 +16,7 @@ Shipped 3 production apps. Currently focused on multi-chain crypto wallets and D
 
 ## Currently Building
 
-### [iLity Hub](https://github.com/kaywalker91) — Multi-chain Crypto Wallet & Social Trading
+### Multi-chain Crypto Wallet & Social Trading
 
 Building a trustless social platform where every post is backed by on-chain transactions.
 
