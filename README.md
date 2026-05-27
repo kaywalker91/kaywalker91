@@ -19,7 +19,7 @@ Beyond building UI, I dig into rendering pipelines, memory, and crashes to fix r
 ## Featured Work
 
 ### PLLI Lab — Flutter Web Mass-Rendering Pipeline
-**Mass print-image rendering pipeline** · Roun Company (2026.03 ~ Present)
+**Mass print-image rendering pipeline** · Rowoon Company Corp. (2026.03 ~ Present)
 
 Designed a CanvasKit-based pipeline that renders print images at scale on Flutter Web (160 commits / 25 days).
 
