@@ -43,7 +43,7 @@ Stabilized a complex wallet-connection flow with a state-machine architecture.
 Tech: `Flutter` `Riverpod 3.x` `WalletConnect v2` `Clean Architecture` `State Machine`
 
 ### Disaster-Safety Apps — Korea's official services
-**National disaster-safety service** · SISUN IT (2024.11 ~ 2025.11)
+**National disaster-safety service** · Seesun IT (2024.11 ~ 2025.11)
 
 Solo-led the legacy → Flutter migration of two separate apps: **Safety Dideumdol (안전디딤돌)** for Korean residents and **Emergency Ready App** for foreign visitors.
 
