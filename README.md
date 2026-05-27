@@ -40,10 +40,10 @@ Stabilized a complex wallet-connection flow with a state-machine architecture.
 
 Tech: `Flutter` `Riverpod 3.x` `WalletConnect v2` `Clean Architecture` `State Machine`
 
-### Emergency Ready App (안전디딤돌) — Korea's official disaster-safety app
+### 안전디딤돌 & Emergency Ready App — Korea's official disaster-safety apps
 **행정안전부 재난안전 서비스** · 시선아이티 (2024.11 ~ 2025.11)
 
-Solo-led the migration of legacy Android (Java) + iOS to Flutter.
+Solo-led the legacy → Flutter migration of two separate apps: **안전디딤돌** (for Korean residents) and **Emergency Ready App** (for foreign visitors).
 
 - **30% fewer bugs, 20% faster development** after introducing a Riverpod architecture
 - **95% accessibility compliance** (TalkBack / VoiceOver)
