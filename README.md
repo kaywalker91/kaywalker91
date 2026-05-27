@@ -2,6 +2,8 @@
 
 # Daegak Kim
 
+**English** | [한국어](README.ko.md)
+
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=02569B&center=true&vCenter=true&width=650&lines=Flutter+Performance+%26+Reliability+Engineer;CanvasKit+%C2%B7+OOM+%C2%B7+Crash-free+at+Scale;AI-Orchestrated+Development" alt="Typing SVG" /></a>
 
 <img src="https://komarev.com/ghpvc/?username=kaywalker91&style=flat-square&color=02569B" alt="Profile Views"/>
@@ -10,14 +12,14 @@
 
 **Flutter engineer specializing in performance, reliability, and full-cycle delivery across mobile & web.**
 
-모바일·웹 크로스플랫폼에서 실서비스 성능 병목과 안정성 문제를 구조적으로 해결합니다. 단순 화면 구현을 넘어, 렌더링 파이프라인·메모리·크래시 같은 근본 병목을 끝까지 파고드는 4년차 엔지니어입니다.
+Beyond building UI, I dig into rendering pipelines, memory, and crashes to fix root-cause bottlenecks in production — 4 years in.
 
 ---
 
 ## Featured Work
 
 ### PLLI Lab — Flutter Web Mass-Rendering Pipeline
-**대량 인쇄 이미지 렌더링 파이프라인** · 로운컴퍼니씨앤씨 (2026.03 ~ Present)
+**Mass print-image rendering pipeline** · Roun Company (2026.03 ~ Present)
 
 Designed a CanvasKit-based pipeline that renders print images at scale on Flutter Web (160 commits / 25 days).
 
@@ -29,7 +31,7 @@ Designed a CanvasKit-based pipeline that renders print images at scale on Flutte
 Tech: `Flutter Web` `CanvasKit/WebGL` `Web Lock API` `Performance Memory API` `Firebase`
 
 ### Multi-chain Crypto Wallet & Social Trading
-**멀티체인 크립토 지갑 / 소셜 트레이딩** · FORLONG (2025.12 ~ 2026.03)
+**Multi-chain crypto wallet / social trading** · FORLONG (2025.12 ~ 2026.03)
 
 Stabilized a complex wallet-connection flow with a state-machine architecture.
 
@@ -40,17 +42,17 @@ Stabilized a complex wallet-connection flow with a state-machine architecture.
 
 Tech: `Flutter` `Riverpod 3.x` `WalletConnect v2` `Clean Architecture` `State Machine`
 
-### 안전디딤돌 & Emergency Ready App — Korea's official disaster-safety apps
-**행정안전부 재난안전 서비스** · 시선아이티 (2024.11 ~ 2025.11)
+### Disaster-Safety Apps — Korea's official services
+**National disaster-safety service** · SISUN IT (2024.11 ~ 2025.11)
 
-Solo-led the legacy → Flutter migration of two separate apps: **안전디딤돌** (for Korean residents) and **Emergency Ready App** (for foreign visitors).
+Solo-led the legacy → Flutter migration of two separate apps: **Safety Dideumdol (안전디딤돌)** for Korean residents and **Emergency Ready App** for foreign visitors.
 
 - **30% fewer bugs, 20% faster development** after introducing a Riverpod architecture
 - **95% accessibility compliance** (TalkBack / VoiceOver)
 - Location-based FCM auto-subscribe (GPS) · 19-language real-time translation (Google Translate API V3)
 
-### PointTour (포인트투어) — Location-based rewards app
-**위치 기반 포인트 적립** · 플레이스링크 (2022.10 ~ 2024.11)
+### PointTour — Location-based rewards app
+**Location-based point rewards** · PlaceLink (2022.10 ~ 2024.11)
 
 - Refactored AsyncTask → **RxJava2**, eliminating async crashes by **80–90%**
 - **400% download growth** (1,000 → 5,000) driven by the Daejeon "0-si Festival" event integration
@@ -60,8 +62,6 @@ Solo-led the legacy → Flutter migration of two separate apps: **안전디딤�
 ## AI-Orchestrated Workflow
 
 I leverage AI coding agents (**Claude Code**, **Antigravity**) across my workflow — spec breakdown, implementation acceleration, debugging hypotheses, test scaffolding, and review loops — to cut iteration time on complex migrations and refactors.
-
-> 레거시 마이그레이션·리팩토링·테스트 작성 구간에서 AI 에이전트를 파이프라인화하여 반복 작업 리드타임을 단축합니다.
 
 ---
 
@@ -80,8 +80,8 @@ I leverage AI coding agents (**Claude Code**, **Antigravity**) across my workflo
 
 ## Side Projects
 
-- **MindLog** — AI 감정일기 (Llama 3.3 기반 분석 + 2단계 안전 필터). [Google Play](https://play.google.com/store/apps/details?id=com.mindlog.mindlog) · [Live Demo](https://kaywalker91.github.io/MindLog/)
-- **TimeWalker** — Flame 엔진 기반 역사 교육 게임 (분기형 대화 + 오프라인 우선). [Live Demo](https://kaywalker91.github.io/TimeWalker/)
+- **MindLog** — AI emotional-journaling app (Llama 3.3 analysis + 2-layer safety filter). [Google Play](https://play.google.com/store/apps/details?id=com.mindlog.mindlog) · [Live Demo](https://kaywalker91.github.io/MindLog/)
+- **TimeWalker** — History-education game built on the Flame engine (branching dialogue + offline-first). [Live Demo](https://kaywalker91.github.io/TimeWalker/)
 
 ---
 
