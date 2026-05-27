@@ -2,7 +2,7 @@
 
 # Daegak Kim
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=02569B&center=true&vCenter=true&width=540&lines=Flutter+Performance+%26+Reliability+Engineer;CanvasKit+%C2%B7+OOM+%C2%B7+Crash-free+at+Scale;AI-Orchestrated+Development" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=02569B&center=true&vCenter=true&width=650&lines=Flutter+Performance+%26+Reliability+Engineer;CanvasKit+%C2%B7+OOM+%C2%B7+Crash-free+at+Scale;AI-Orchestrated+Development" alt="Typing SVG" /></a>
 
 <img src="https://komarev.com/ghpvc/?username=kaywalker91&style=flat-square&color=02569B" alt="Profile Views"/>
 
@@ -28,7 +28,7 @@ Designed a CanvasKit-based pipeline that renders print images at scale on Flutte
 
 Tech: `Flutter Web` `CanvasKit/WebGL` `Web Lock API` `Performance Memory API` `Firebase`
 
-### iLity Hub — Multi-chain Crypto Wallet & Social Trading
+### Multi-chain Crypto Wallet & Social Trading
 **멀티체인 크립토 지갑 / 소셜 트레이딩** · FORLONG (2025.12 ~ 2026.03)
 
 Stabilized a complex wallet-connection flow with a state-machine architecture.
