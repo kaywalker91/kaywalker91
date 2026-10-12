@@ -1,94 +1,132 @@
 <div align="center">
 
-# 김대각
+# 김대각 / Kay
 
 [English](README.md) | **한국어**
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=02569B&center=true&vCenter=true&width=650&lines=Flutter+Performance+%26+Reliability+Engineer;CanvasKit+%C2%B7+OOM+%C2%B7+Crash-free+at+Scale;AI-Orchestrated+Development" alt="Typing SVG" /></a>
-
-<img src="https://komarev.com/ghpvc/?username=kaywalker91&style=flat-square&color=02569B" alt="Profile Views"/>
+<p><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=02569B&center=true&vCenter=true&width=650&lines=Mobile+%26+Web+Development;Service+Reliability+Improvements;Tools+for+Everyday+Work" alt="모바일·웹 개발, 서비스 안정성 개선, 업무 도구" width="650" /></p>
 
 </div>
 
-**성능·안정성과 풀사이클 설계에 강점을 둔 모바일·웹 크로스플랫폼 Flutter 엔지니어.**
+**모바일·웹 개발, 안정성 개선, 업무 도구 기획·설계.**
 
-단순 화면 구현을 넘어 렌더링 파이프라인·메모리·크래시 같은 근본 병목을 끝까지 파고들어 실서비스 문제를 해결하는 4년차 엔지니어입니다.
-
----
-
-## 주요 프로젝트
-
-### PLLI Lab — Flutter Web 대량 렌더링 파이프라인
-**대량 인쇄 이미지 렌더링 파이프라인** · 로운컴퍼니씨앤씨 (2026.03 ~ 재직 중)
-
-Flutter Web에서 인쇄 이미지를 대량으로 렌더링하는 CanvasKit 기반 파이프라인을 설계했습니다 (160커밋 / 25일).
-
-- **브라우저 런타임 안정성**: JS + WASM 메모리 모니터링, OOM 세션 분할, WebGL 안정성 엔지니어링
-- **흐름 제어**: 100건 청크 배치 + `Completer` 기반 pause/resume (busy-wait 제거)
-- **복원력**: 3단계 스티커 폴백 체인 · CanvasKit 디코딩 한계 우회 (HTML Canvas 다운샘플링)
-- **운영·관측성**: 매일 21시 자동 렌더링 스케줄, Web Lock 분산 락, Crashlytics 진단
-
-기술: `Flutter Web` `CanvasKit/WebGL` `Web Lock API` `Performance Memory API` `Firebase`
-
-### 멀티체인 크립토 지갑 & 소셜 트레이딩
-**멀티체인 크립토 지갑 / 소셜 트레이딩** · FORLONG (2025.12 ~ 2026.03)
-
-State Machine 아키텍처로 복잡한 지갑 연결 흐름을 안정화했습니다.
-
-- **WalletConnect v2**를 통합한 4계층 어댑터 아키텍처
-- Race Condition 방어를 위한 4계층 **Sign Guard**
-- Cold Start 세션 복구를 포함한 Context 기반 딥링크 라우팅
-- **성과: 지갑 연결 실패율 약 90% 감소** · 15개 모듈 Clean Architecture
-
-기술: `Flutter` `Riverpod 3.x` `WalletConnect v2` `Clean Architecture` `State Machine`
-
-### 재난안전 서비스 — 행정안전부 공식 앱
-**국가 재난안전 서비스** · 시선아이티 (2024.11 ~ 2025.11)
-
-내국인용 **안전디딤돌**과 외국인용 **Emergency Ready App**, 두 앱의 레거시 → Flutter 전환을 단독으로 수행했습니다.
-
-- Riverpod 아키텍처 도입으로 **버그 30%↓, 개발 속도 20%↑**
-- **접근성 준수율 95%** (TalkBack / VoiceOver)
-- GPS 기반 위치 FCM 자동 구독 · Google Translate API V3로 19개 언어 실시간 번역
-
-### 포인트투어 — 위치 기반 포인트 적립 앱
-**위치 기반 포인트 적립** · 플레이스링크 (2022.10 ~ 2024.11)
-
-- AsyncTask → **RxJava2** 리팩토링으로 비동기 크래시 **80~90% 감소**
-- 대전 '0시 축제' 이벤트 연계로 **다운로드 400% 증가** (1,000 → 5,000)
+인쇄 이미지 생성이 멈추거나 요소가 빠지는 문제를 개선하고, 외부 지갑 연결을 구현했습니다. 날짜·기념일 인쇄 오류를 찾는 검수 도구도 기획·설계하며, 사용자가 작업을 끝내는 데 필요한 흐름을 다뤄 왔습니다.
 
 ---
 
-## AI 오케스트레이션 워크플로우
+## 주요 경험
 
-AI 코딩 에이전트(**Claude Code**, **Antigravity**)를 스펙 분해·구현 가속·디버깅 가설 검증·테스트 스캐폴딩·리뷰 과정까지 활용해, 복잡한 마이그레이션과 리팩토링의 반복 작업 리드타임을 단축합니다.
+### PLLI LAB · 인쇄 이미지 생성 복구
+
+**로운컴퍼니 · 2026.03–현재**
+
+여러 주문의 인쇄 이미지를 만드는 중 브라우저 작업이 멈추거나 사진·스티커·텍스트가 빠지는 문제를 인계받아, 개선과 주문별 복구를 주도했습니다.
+
+- **중단 뒤 이어가기:** 처리 진행을 보관하고 다음 세션에서 재개하도록 보강했습니다. 여러 탭이 같은 주문을 중복 처리하는 경로도 다뤘습니다.
+- **누락 요소 복원:** 이미지 처리와 참조를 보완하고, 전후 인쇄 이미지를 눈으로 비교하며 복구를 확인했습니다.
+- **확인된 변화:** 당시 처리 기록과 전후 출력에서 주문별 처리 재개와 누락 요소 복원이 확인됐습니다. 결과 범위는 해당 주문과 요소의 복구입니다.
+
+기술: 브라우저에서 인쇄 이미지를 만드는 `Flutter Web` · 화면을 이미지로 그리는 `CanvasKit / WebGL` · 주문·파일을 보관하는 `Firebase`
+
+### 캘린더 QA · 인쇄 오류를 찾는 검수 도구
+
+**로운컴퍼니 · 초기 기획·설계 담당**
+
+달력·다이어리의 잘못된 날짜와 기념일 위치를 인쇄 전에 찾고, 디자이너가 검토할 위치를 쉽게 확인할 수 있는 도구를 기획·설계했습니다.
+
+- **검사 상태 구분:** 내용을 읽지 못한 경우와 검사 결과 오류가 없는 경우를 구분하는 흐름을 설계했습니다.
+- **위치를 찾는 보고:** 쪽수·칸 이름·인쇄 문구와 예상값을 함께 보여 주는 보고 방식을 마련했습니다.
+- **도구의 결과:** 보관된 검수 기록에서 날짜 오식·기념일 위치 오류 탐지와 검사 범위 개선이 확인됐습니다. 담당한 일은 초기 기획·설계이며, 도구는 오류를 탐지·보고합니다.
+
+기술: PDF의 글자·위치를 읽고 규칙과 비교하는 `TypeScript` 기반 도구
+
+### 포롱 · 외부 지갑 연결 흐름 구현
+
+**FORLONG · 2025.12–2026.02**
+
+서비스 앱과 지갑 앱을 오가며 승인·서명하는 동안 복귀 시점과 응답 순서가 엇갈리는 문제를 다뤘습니다. 계획서로 인계받은 지갑 연결의 구현을 담당했습니다.
+
+- **단계별 처리:** 연결 대기·서명·검증을 나누고, 앱으로 돌아온 링크를 처리할 시점까지 보관하도록 구현했습니다.
+- **응답 충돌 대응:** 중복 재연결을 제한하고, 새 서명·주소를 늦게 도착한 조회 결과가 덮지 않도록 보완했습니다.
+- **구현 결과:** 연결 단계·링크 처리·지갑별 오류 대응 코드와 시험 정의를 남겼습니다. 실제 지갑의 전체 연결 성공이나 운영 출시를 확인한 결과와는 구분합니다.
+
+기술: 앱 개발 `Flutter / Dart` · 외부 지갑 연결 `WalletConnect v2` · 진행 단계에 따라 다음 동작을 결정하는 `State Machine`
 
 ---
 
-## 기술 스택
+## 모바일 서비스 개발 경험
+
+### 플레이스링크 · 포인트투어의 작업 처리 개선
+
+**PlaceLink · 2022.10–2024.11**
+
+포인트투어는 장소 방문과 매장 이용을 포인트·혜택에 연결하는 앱입니다. 서버 응답을 기다리는 작업에서 오류 대응이 복잡해지는 문제를 다루며 Android 앱의 처리 구조를 개선했습니다.
+
+- **담당한 일:** 기존 이력서에는 AsyncTask 기반 작업을 RxJava 2로 전환하고 요청·응답·오류 흐름을 정리한 업무가 기록돼 있습니다.
+- **해결 과정:** 서버 요청과 응답 해석을 화면 표시에서 분리하고, 결과가 도착하면 화면을 갱신하도록 연결했습니다. RxJava는 응답을 기다리는 작업과 결과·오류 처리를 이어 주는 도구입니다.
+- **확인된 변화와 산출물:** 당시 코드 대조에서 FAQ·축제 매장 상세의 일부 전환이 확인됐습니다. 제 명의 인수인계에는 앱 구조, 축제 운영, 업데이트·정기 점검 절차도 정리돼 있습니다.
+
+기술: Android 앱 개발 `Java` · 서버 응답·오류 흐름 연결 `RxJava 2`
+
+### 시선아이티 · 재난안전 앱의 Flutter 전환
+
+**Seesun IT · 2024.11–2025.11**
+
+안전디딤돌·이머전시레디의 Android·iOS 앱을 공통 코드로 옮기며, 위치·날씨·재난 정보를 갱신하고 화면에 반영하는 문제를 다뤘습니다.
+
+- **담당한 일:** 기존 이력서에는 Flutter 전환과 데이터 상태 관리를 담당한 것으로 기록돼 있습니다. Flutter는 Android·iOS 화면을 공통 코드로 개발하는 도구입니다.
+- **해결 과정:** 데이터가 바뀌면 관련 화면이 받아 표시하도록 Riverpod으로 상태를 연결하고, 조회·저장을 공통 창구에서 처리하는 구조로 정리한 경험입니다.
+- **확인된 구현:** 재직 중 코드에서는 위치 조회·저장 상태를 구분하고, 날씨 화면이 위치·권한·날씨 상태 변화를 받아 갱신하는 흐름이 확인됐습니다. 개인 담당은 이력서 기록, 구현 변화는 당시 코드 대조에 근거합니다.
+
+기술: 공통 앱 개발 `Flutter / Dart` · 데이터 변화와 화면 연결 `Riverpod`
+
+---
+
+## 직접 개발하고 사용하는 앱
+
+### LinkNote · 링크 저장·분류
+
+**개발 중 · 내부테스트에서 직접 사용**
+
+YouTube 공유 후 저장 화면이 열리지 않는 문제를 고치고, 분류 선택 창이 조회 중·실패·빈 목록을 구분하도록 개선했습니다. 링크를 저장할 때 분류도 함께 고를 수 있게 연결했습니다. 두 사례의 분석·구현·기기 확인을 담당했습니다.
+
+2026.10.08 기준 내부테스트 앱을 직접 사용하고 있으며, 분류 선택 창의 정상 동작을 확인했습니다.
+
+[GitHub 저장소](https://github.com/kaywalker91/LinkNote)
+
+### MindLog · AI 일기 분석
+
+**Google Play 출시 · 개발·유지보수 중**
+
+AI로 일기를 분석하는 앱을 직접 기획·설계·구현하고 사용하고 있습니다. 후속 개발에서는 작성 중인 글·날짜·사진을 초안으로 보관하고, 화면 이탈 때 저장하며 다시 불러오는 임시저장 경로를 구현했습니다.
+
+출시·유지보수·직접 사용은 2026.10.08 기준입니다. 임시저장 개선은 개발 코드 기준이며, 현재 공개 빌드의 항목별 시험 결과와 구분합니다.
+
+[Google Play](https://play.google.com/store/apps/details?id=com.mindlog.mindlog) · [GitHub 저장소](https://github.com/kaywalker91/MindLog) · [웹 데모](https://kaywalker91.github.io/MindLog/)
+
+그 밖의 프로젝트: [TimeWalker](https://kaywalker91.github.io/TimeWalker/)
+
+---
+
+## 기술과 AI 협업
 
 <div align="center">
-<img src="https://skillicons.dev/icons?i=flutter,dart,firebase,java,swift,js,postgres,git&theme=dark&perline=8" alt="Tech Stack" />
+
+<img src="https://skillicons.dev/icons?i=flutter,dart,java,ts,firebase,git&theme=dark&perline=6" alt="Flutter, Dart, Java, TypeScript, Firebase, Git" />
+
 </div>
 
-**모바일 / 웹**: Flutter, Dart, Flutter Web, Android (Java), iOS (Swift)
-**아키텍처**: Clean Architecture, MVVM, Riverpod, State Machine
-**성능 / 안정성**: CanvasKit/WebGL, OOM 대응, Crashlytics, Web Lock API
-**Web3**: WalletConnect v2, EVM 멀티체인 (Ethereum, BNB Chain, Base)
+- **앱·웹:** `Flutter / Dart`, `Flutter Web`, `Android / Java`로 화면과 서비스 흐름을 구현합니다.
+- **데이터·연동:** `Riverpod`으로 데이터 변화와 화면을 연결하고, `Firebase`로 주문·파일을 보관하며, `WalletConnect`로 외부 지갑을 연동합니다.
 
----
-
-## 사이드 프로젝트
-
-- **MindLog** — AI 감정일기 앱 (Llama 3.3 분석 + 2단계 안전 필터). [Google Play](https://play.google.com/store/apps/details?id=com.mindlog.mindlog) · [Live Demo](https://kaywalker91.github.io/MindLog/)
-- **TimeWalker** — Flame 엔진 기반 역사 교육 게임 (분기형 대화 + 오프라인 우선). [Live Demo](https://kaywalker91.github.io/TimeWalker/)
+PLLI LAB의 문제 해결에 AI 도구를 함께 사용했습니다. 포롱의 지갑 연결과 LinkNote·MindLog의 관련 코드에는 Claude 공동 작성 기록이 있습니다. 담당한 일과 AI 공동 작성을 함께 설명합니다.
 
 ---
 
 <div align="center">
 
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:eorkr112@naver.com)
-[![Blog](https://img.shields.io/badge/Blog-EB5B00?style=for-the-badge&logo=tistory&logoColor=white)](https://kaywalker.tistory.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-181717?style=for-the-badge&logo=github&logoColor=white)](https://kaywalker91.github.io/)
+[![이메일](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:eorkr112@naver.com)
+[![블로그](https://img.shields.io/badge/Blog-EB5B00?style=for-the-badge&logo=tistory&logoColor=white)](https://kaywalker.tistory.com)
+[![포트폴리오](https://img.shields.io/badge/Portfolio-181717?style=for-the-badge&logo=github&logoColor=white)](https://kaywalker91.github.io/)
 
 </div>

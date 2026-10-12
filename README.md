@@ -1,87 +1,125 @@
 <div align="center">
 
-# Daegak Kim
+# Daegak Kim / Kay
 
 **English** | [한국어](README.ko.md)
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=02569B&center=true&vCenter=true&width=650&lines=Flutter+Performance+%26+Reliability+Engineer;CanvasKit+%C2%B7+OOM+%C2%B7+Crash-free+at+Scale;AI-Orchestrated+Development" alt="Typing SVG" /></a>
-
-<img src="https://komarev.com/ghpvc/?username=kaywalker91&style=flat-square&color=02569B" alt="Profile Views"/>
+<p><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=02569B&center=true&vCenter=true&width=650&lines=Mobile+%26+Web+Development;Service+Reliability+Improvements;Tools+for+Everyday+Work" alt="Mobile and web development, service reliability improvements, and tools for everyday work" width="650" /></p>
 
 </div>
 
-**Flutter engineer specializing in performance, reliability, and full-cycle delivery across mobile & web.**
+**Mobile and web development, reliability improvements, and tools for everyday work.**
 
-Beyond building UI, I dig into rendering pipelines, memory, and crashes to fix root-cause bottlenecks in production — 4 years in.
-
----
-
-## Featured Work
-
-### PLLI Lab — Flutter Web Mass-Rendering Pipeline
-**Mass print-image rendering pipeline** · Rowoon Company Corp. (2026.03 ~ Present)
-
-Designed a CanvasKit-based pipeline that renders print images at scale on Flutter Web (160 commits / 25 days).
-
-- **Browser runtime stability**: JS+WASM memory monitoring, OOM session splitting, WebGL stability engineering
-- **Flow control**: 100-item chunked batching with `Completer`-based pause/resume (eliminated busy-wait)
-- **Resilience**: 3-stage sticker fallback chain · CanvasKit decoding-limit workaround (HTML Canvas downsampling)
-- **Ops & observability**: daily 21:00 auto-render schedule, Web Lock distributed locking, Crashlytics diagnostics
-
-Tech: `Flutter Web` `CanvasKit/WebGL` `Web Lock API` `Performance Memory API` `Firebase`
-
-### Multi-chain Crypto Wallet & Social Trading
-**Multi-chain crypto wallet / social trading** · FORLONG (2025.12 ~ 2026.03)
-
-Stabilized a complex wallet-connection flow with a state-machine architecture.
-
-- 4-layer adapter architecture integrating **WalletConnect v2**
-- 4-layer **Sign Guard** to defend against race conditions
-- Context-based deep-link routing with cold-start session recovery
-- **Result: ~90% reduction in wallet-connection failures** · 15-module Clean Architecture
-
-Tech: `Flutter` `Riverpod 3.x` `WalletConnect v2` `Clean Architecture` `State Machine`
-
-### Disaster-Safety Apps — Korea's official services
-**National disaster-safety service** · Seesun IT (2024.11 ~ 2025.11)
-
-Solo-led the legacy → Flutter migration of two separate apps: **Safety Dideumdol (안전디딤돌)** for Korean residents and **Emergency Ready App** for foreign visitors.
-
-- **30% fewer bugs, 20% faster development** after introducing a Riverpod architecture
-- **95% accessibility compliance** (TalkBack / VoiceOver)
-- Location-based FCM auto-subscribe (GPS) · 19-language real-time translation (Google Translate API V3)
-
-### PointTour — Location-based rewards app
-**Location-based point rewards** · PlaceLink (2022.10 ~ 2024.11)
-
-- Refactored AsyncTask → **RxJava2**, eliminating async crashes by **80–90%**
-- **400% download growth** (1,000 → 5,000) driven by the Daejeon "0-si Festival" event integration
+I improve interrupted or incomplete print-image generation and implement external wallet connections. I also planned and designed tools for detecting printed date and holiday errors, focusing on the steps people need to complete their work.
 
 ---
 
-## AI-Orchestrated Workflow
+## Selected work
 
-I leverage AI coding agents (**Claude Code**, **Antigravity**) across my workflow — spec breakdown, implementation acceleration, debugging hypotheses, test scaffolding, and review loops — to cut iteration time on complex migrations and refactors.
+### PLLI LAB · Recovering print-image generation
+
+**Rowoon Company · Mar 2026–Present**
+
+I took over interrupted browser processing and missing photo, sticker, and text issues in print-image generation, and led improvements and recovery for affected orders.
+
+- **Resuming interrupted work:** Improved progress storage and recovery in a later session, and addressed duplicate processing of the same order across browser tabs.
+- **Restoring missing elements:** Improved image processing and references, and compared output images visually to check recovery.
+- **Confirmed changes:** Historical processing records and before-and-after outputs show resumed processing and restored elements for specific orders. The results cover those orders and elements.
+
+Tech: `Flutter Web` for browser-based print-image generation · `CanvasKit / WebGL` for drawing images · `Firebase` for storing orders and files
+
+### Calendar QA · Tools for finding print errors
+
+**Rowoon Company · Initial planning and design**
+
+I planned and designed a tool to detect incorrect dates and holiday positions in calendars and diaries before printing, and help designers locate the content to review.
+
+- **Distinguishing inspection states:** Designed a flow that separates unreadable content from an inspection with no errors.
+- **Locating issues:** Defined a reporting approach that shows the page, cell name, printed text, and expected value together.
+- **Tool results:** Archived inspection records show date and holiday-position error detection and improved inspection coverage. My responsibilities were initial planning and design; the tool detects and reports errors.
+
+Tech: A `TypeScript` tool that reads PDF text and positions and compares them with rules
+
+### FORLONG · Implementing external wallet connections
+
+**FORLONG · Dec 2025–Feb 2026**
+
+I addressed return timing and out-of-order responses as users moved between the service and wallet apps for approval and signing. I was responsible for implementing the wallet connection work handed over through a plan.
+
+- **Step-by-step handling:** Implemented separate connection, signing, and verification stages, retaining return links until they could be processed.
+- **Response conflicts:** Limited overlapping reconnections and prevented delayed queries from overwriting newer signatures and addresses.
+- **Implementation results:** Produced connection-state, link-handling, and wallet-specific error-handling code and test definitions. These are distinct from complete real-wallet flow validation or a production launch.
+
+Tech: `Flutter / Dart` for app development · `WalletConnect v2` for wallet integration · `State Machine` for choosing the next action based on the current stage
 
 ---
 
-## Tech
+## Mobile service development
+
+### PlaceLink · Improving task handling in PointTour
+
+**PlaceLink · Oct 2022–Nov 2024**
+
+PointTour connects place visits and store use with points and benefits. I worked on the Android processing structure as tasks waiting for server responses made error handling harder to manage.
+
+- **My role:** My existing résumé records migrating AsyncTask-based work to RxJava 2 and organizing the request, response, and error flow.
+- **Approach:** Separated server requests and response parsing from screen updates, then connected incoming results to the UI. RxJava connects asynchronous work with its results and error handling.
+- **Confirmed changes and artifacts:** Historical code comparisons confirm selected migrations in FAQ and festival-store details. Handover documents under my name also describe app structure, festival operations, updates, and regular checks.
+
+Tech: `Java` for Android development · `RxJava 2` for server-response and error handling
+
+### Seesun IT · Flutter migration for disaster-safety apps
+
+**Seesun IT · Nov 2024–Nov 2025**
+
+While moving the Android and iOS versions of Safety Dideumdol and Emergency Ready to shared code, I worked on updating location, weather, and disaster information and reflecting it in the right screens.
+
+- **My role:** My existing résumé records responsibility for Flutter migration and data-state management. Flutter allows Android and iOS screens to share application code.
+- **Approach:** Connected data changes to screens through Riverpod and organized data reads and writes through a common access layer.
+- **Confirmed implementation:** Code from my employment period separates location retrieval and stored state, and updates the weather screen in response to location, permission, and weather-state changes. My responsibilities are supported by résumé records; implementation changes by historical code comparisons.
+
+Tech: `Flutter / Dart` for shared app development · `Riverpod` for connecting data changes to screens
+
+---
+
+## Apps I develop and use
+
+### LinkNote · Saving and organizing links
+
+**In development · Personally used in internal testing**
+
+I fixed a flow where sharing from YouTube did not open the save screen, and improved the collection picker to distinguish loading, failure, and an empty list. I also connected collection selection to the link-saving form. I handled analysis, implementation, and device checks for these two cases.
+
+As of Oct 8, 2026, I personally use the internal-test app and have confirmed that the collection picker works.
+
+[GitHub repository](https://github.com/kaywalker91/LinkNote)
+
+### MindLog · AI diary analysis
+
+**Released on Google Play · In active development and maintenance**
+
+I planned, designed, implemented, and personally use this AI diary-analysis app. In later development, I implemented draft storage and restoration for text, dates, and photos, including saving when leaving the writing screen.
+
+Release, maintenance, and personal use are current as of Oct 8, 2026. Draft improvements refer to development code, separately from feature-by-feature testing of the current public build.
+
+[Google Play](https://play.google.com/store/apps/details?id=com.mindlog.mindlog) · [GitHub repository](https://github.com/kaywalker91/MindLog) · [Web demo](https://kaywalker91.github.io/MindLog/)
+
+Other work: [TimeWalker](https://kaywalker91.github.io/TimeWalker/)
+
+---
+
+## Tech and AI collaboration
 
 <div align="center">
-<img src="https://skillicons.dev/icons?i=flutter,dart,firebase,java,swift,js,postgres,git&theme=dark&perline=8" alt="Tech Stack" />
+
+<img src="https://skillicons.dev/icons?i=flutter,dart,java,ts,firebase,git&theme=dark&perline=6" alt="Flutter, Dart, Java, TypeScript, Firebase, Git" />
+
 </div>
 
-**Mobile / Web**: Flutter, Dart, Flutter Web, Android (Java), iOS (Swift)
-**Architecture**: Clean Architecture, MVVM, Riverpod, State Machine
-**Performance / Reliability**: CanvasKit/WebGL, OOM mitigation, Crashlytics, Web Lock API
-**Web3**: WalletConnect v2, EVM multi-chain (Ethereum, BNB Chain, Base)
+- **Apps and web:** I use `Flutter / Dart`, `Flutter Web`, and `Android / Java` to implement screens and service flows.
+- **Data and integrations:** I use `Riverpod` to connect data changes to screens, `Firebase` to store orders and files, and `WalletConnect` to integrate external wallets.
 
----
-
-## Side Projects
-
-- **MindLog** — AI emotional-journaling app (Llama 3.3 analysis + 2-layer safety filter). [Google Play](https://play.google.com/store/apps/details?id=com.mindlog.mindlog) · [Live Demo](https://kaywalker91.github.io/MindLog/)
-- **TimeWalker** — History-education game built on the Flame engine (branching dialogue + offline-first). [Live Demo](https://kaywalker91.github.io/TimeWalker/)
+I used AI tools while resolving PLLI LAB issues. Relevant wallet-connection code at FORLONG and related LinkNote and MindLog code include Claude co-author records. I describe both my responsibilities and AI co-authorship.
 
 ---
 
