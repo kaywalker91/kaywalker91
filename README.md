@@ -98,9 +98,7 @@ As of Oct 8, 2026, I personally use the internal-test app and have confirmed tha
 
 **Released on Google Play · In active development and maintenance**
 
-I planned, designed, implemented, and personally use this AI diary-analysis app. In later development, I implemented draft storage and restoration for text, dates, and photos, including saving when leaving the writing screen.
-
-Release, maintenance, and personal use are current as of Oct 8, 2026. Draft improvements are in the development build.
+I planned, designed, implemented, and personally use this AI diary-analysis app. In the development build, I implemented draft storage and restoration for text, dates, and photos, including saving when leaving the writing screen.
 
 [Google Play](https://play.google.com/store/apps/details?id=com.mindlog.mindlog) · [GitHub repository](https://github.com/kaywalker91/MindLog) · [Web demo](https://kaywalker91.github.io/MindLog/)
 

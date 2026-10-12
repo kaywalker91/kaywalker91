@@ -98,9 +98,7 @@ YouTube 공유 후 저장 화면이 열리지 않는 문제를 고치고, 분류
 
 **Google Play 출시 · 개발·유지보수 중**
 
-AI로 일기를 분석하는 앱을 직접 기획·설계·구현하고 사용하고 있습니다. 후속 개발에서는 작성 중인 글·날짜·사진을 초안으로 보관하고, 화면 이탈 때 저장하며 다시 불러오는 임시저장 경로를 구현했습니다.
-
-출시·유지보수·직접 사용은 2026.10.08 기준입니다. 임시저장 개선은 개발 버전에 반영돼 있습니다.
+AI로 일기를 분석하는 앱을 직접 기획·설계·구현하고 사용하고 있습니다. 개발 버전에서는 작성 중인 글·날짜·사진을 초안으로 보관하고, 화면 이탈 때 저장하며 다시 불러오는 임시저장 기능을 구현했습니다.
 
 [Google Play](https://play.google.com/store/apps/details?id=com.mindlog.mindlog) · [GitHub 저장소](https://github.com/kaywalker91/MindLog) · [웹 데모](https://kaywalker91.github.io/MindLog/)
 
