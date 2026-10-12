@@ -106,7 +106,7 @@ Other work: [TimeWalker](https://kaywalker91.github.io/TimeWalker/)
 
 ---
 
-## Tech and AI collaboration
+## Tech stack
 
 <div align="center">
 
@@ -116,8 +116,7 @@ Other work: [TimeWalker](https://kaywalker91.github.io/TimeWalker/)
 
 - **Apps and web:** I use `Flutter / Dart`, `Flutter Web`, and `Android / Java` to implement screens and service flows.
 - **Data and integrations:** I use `Riverpod` to connect data changes to screens, `Firebase` to store orders and files, and `WalletConnect` to integrate external wallets.
-
-I used AI tools while resolving PLLI LAB issues. Relevant wallet-connection code at FORLONG and related LinkNote and MindLog code include Claude co-author records.
+- **AI tools:** I use `Claude Code` for analysis and implementation, get reviews from other models such as `Codex`, and verify the results myself before applying them.
 
 ---
 
